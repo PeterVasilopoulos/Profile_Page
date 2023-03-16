@@ -102,6 +102,28 @@
     border: solid 2px rgb(159, 159, 159);
 }
 
+.education-top-block {
+    background-color: rgb(47, 47, 47);
+    color: white;
+    padding: 15px 30px;
+}
+
+.education-bot-block {
+    padding: 15px 30px 0;
+}
+
+.education-item {
+    margin-bottom: 15px;
+}
+
+.education-name {
+    font-size: 26px;
+}
+
+.education-date {
+    color: rgb(119, 119, 119);
+}
+
 /* Content Right */
 
 .content-right {
