@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS Reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgb(65, 65, 65);
+}
+
+.navbar-left {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+}
+
+.navbar-title {
+    font-size: 35px;
+}
+
+.navbar-home, .navbar-find-cons {
+    color: rgb(159, 159, 159);
+}
+
+.navbar-sign-out {
+    background-color: rgb(0, 179, 255);
+    padding: 3px 12px;
+    border: solid 2px rgb(65, 65, 65);
+}
+
+/* Main Content */
+
+.main-content {
+    margin: 0 auto;
+    display: flex;
+    width: 1000px;
+    gap: 30px;
+}
+
+/* Content Left */
+
+.content-left {
+    flex: 2;
+}
+
+/* Profile Block */
+
+.profile {
+    border: solid 2px rgb(159, 159, 159);
+}
+
+.profile-top-block {
+    background-color: rgb(24, 173, 138);
+    height: 100px;
+}
+
+.profile-avatar {
+    height: 100px;
+    margin: 50px 0 0 30px;
+}
+
+.profile-bot-block {
+    padding-left: 30px;
+    margin-top: 50px;
+}
+
+.profile-name {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.profile-location, 
+.profile-desc, 
+.profile-edit {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.icon {
+    height: 20px;
+}
+
+/* Education Block */
+
+.education {
+    border: solid 2px rgb(159, 159, 159);
+}
+
+/* Content Right */
+
+.content-right {
+    flex: 1;
+}
+
+/* Connection Requests */
+
+.conreq {
+    border: solid 2px rgb(159, 159, 159);
+}
+
+.conreq-top-block {
+    display: flex;
+    background-color: rgb(47, 47, 47);
+    justify-content: space-evenly;
+    font-size: 22px;
+    color: white;
+    padding: 15px 0;
+}
+
+.conreq-num-cons {
+    background-color: rgb(204, 204, 204);
+    padding: 2px 10px;
+    border-radius: 50%;
+    color: black;
+}
+
+.conreq-bot-block {
+    padding: 15px 15px 0;
+}
+
+.conreq-user {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.conreq-user-buttons img {
+    height: 40px;
+    margin-left: 5px;
+}
+
+/* Your Connections */
+
+.cons {
+    border: solid 2px rgb(159, 159, 159);
+}
+
+.cons-top-block {
+    background-color: rgb(47, 47, 47);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    color: white;
+    padding: 15px;
+}
+
+.cons-num-cons {
+    background-color: rgb(204, 204, 204);
+    padding: 2px 10px;
+    border-radius: 50%;
+    color: black;
+}
+
+.cons-bot-block {
+    padding: 15px 15px 0;
+}
+
+.cons-user {
+    margin-bottom: 15px;
+}
+
+.cons-view-more {
+    padding: 10px 0;
+    border-top: solid 2px rgb(159, 159, 159);
+}
+
+
+/* Utilities */
+
+.big-block {
+    margin-bottom: 30px;
+}
+
+.faceshot {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
